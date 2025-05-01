@@ -5,7 +5,7 @@ from prompt import generate_low_level_queries
 app = FastAPI()
 global_hobby_data = {}
 
-@app.get("/generate_path/")
+@app.post("/generate_path/")
 async def generate_path(hobby: str):
     try:
         parsed = search_sonar(hobby)
@@ -14,7 +14,7 @@ async def generate_path(hobby: str):
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-@app.get("/generate_lowlevel/")
+@app.post("/generate_lowlevel/")
 async def generate_lowlevel(hobby: str, hlg_index: int = 0):
     try:
         hobby_data = global_hobby_data.get(hobby)
