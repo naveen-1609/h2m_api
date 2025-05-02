@@ -19,19 +19,19 @@ class LLG(BaseModel):
     llg_earning_usd_per_week: int
     llg_resources: List[Resource]
 
-class Path(BaseModel):
-    hlg_title: str
-    hlg_description: str
-    estimated_time_days: int
-    estimated_earning_usd_per_week: int
-    SuccessStory: SuccessStory
-
 class SuccessStory(BaseModel):
     name: str
     story: str
     time_to_first_earning_days: int
     first_earning_usd: int
     citation_link: str
+
+class Path(BaseModel):
+    hlg_title: str
+    hlg_description: str
+    estimated_time_days: int
+    estimated_earning_usd_per_week: int
+    SuccessStory: SuccessStory
 
 class AnswerFormat(BaseModel):
     hobby: str
