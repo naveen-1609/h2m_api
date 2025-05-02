@@ -3,14 +3,12 @@ import requests
 from dotenv import load_dotenv
 from pydantic import BaseModel
 import json
+from typing import List, Optional
 load_dotenv()
 
 SONAR_API_KEY = os.getenv("SONAR_API_KEY")
-print("🔐 SONAR_API_KEY:", SONAR_API_KEY)
-from pydantic import BaseModel
-from typing import List, Optional
 
-class Resource(BaseModel):
+class Resource(BaseModel): 
     resource_name: str
     resource_link: str
 
@@ -26,7 +24,7 @@ class Path(BaseModel):
     hlg_description: str
     estimated_time_days: int
     estimated_earning_usd_per_week: int
-    llgs: List[LLG]
+    SuccessStory: SuccessStory
 
 class SuccessStory(BaseModel):
     name: str
@@ -39,7 +37,6 @@ class AnswerFormat(BaseModel):
     hobby: str
     description: str
     paths: List[Path]
-    success_story: SuccessStory
     motivational_writeup: str
 
 def search_sonar(query):
@@ -60,18 +57,14 @@ Given a user hobby and description, generate:
         • 1–2 line inspirational description
         • Estimated time to complete (in days)
         • Estimated earnings potential per week (in USD)
-2. Five Low-Level Goals (LLGs) under each HLG.
-    - Each LLG must:
-        • Be a simple actionable task
-        • Take less than 1 day to complete individually
-3. One real-world success story matching each HLG.
+2. One real-world success story matching each HLG.
     - Must include:
         • Person or business name
         • Short description of their journey
         • Estimated time they took to start earning
         • Estimated first earnings
         • Link to proof (social media / article / store page, preferably USA-based)
-4. A short writeup (2–3 lines) motivating the user to pick this path.
+3. A short writeup (2–3 lines) motivating the user to pick this path.
     - It should sound supportive, real, and exciting (not fake hype).
 
 General Rules:
