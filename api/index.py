@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from app.utils import search_sonar
-from app.prompts import generate_low_level_queries
+from utils import search_sonar
+from prompt import generate_low_level_queries
 
 app = FastAPI()
 global_hobby_data = {}
