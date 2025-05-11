@@ -27,7 +27,7 @@ class LLG(BaseModel):
     llg_resources: List[Resource]
     motivational_writeup: str
     why_this_is_important: str
-    how_to_do_it: [steps]
+    how_to_do_it: steps
 
 class HLGWithLLGs(BaseModel):
     hlg_title: str
@@ -69,7 +69,7 @@ class AnswerFormat(BaseModel):
     hobby: str
     description: str
     paths: List[Path]
-    success_story: [SuccessStory]
+    success_story: SuccessStory
     motivational_writeup: str
 
 
