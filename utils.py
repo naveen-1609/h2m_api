@@ -12,6 +12,13 @@ class Resource(BaseModel):
     resource_name: str
     resource_link: str
 
+class steps(BaseModel):
+    step_name: str
+    step_description: str
+    step_resources: List[Resource]
+
+
+
 class LLG(BaseModel):
     llg_title: str
     llg_description: str
@@ -19,6 +26,8 @@ class LLG(BaseModel):
     llg_earning_usd_per_week: int
     llg_resources: List[Resource]
     motivational_writeup: str
+    why_this_is_important: str
+    how_to_do_it: [steps]
 
 class HLGWithLLGs(BaseModel):
     hlg_title: str
@@ -35,13 +44,13 @@ class AnswerFormat_llg(BaseModel):
     hobby: str
     description: str
     path: PathWithLLGs  # ✅ One selected path with LLGs filled in
-    
 
 class HighLevelMilestone(BaseModel):
     hlg_title: str
     hlg_description: str
     estimated_time_days: int
     estimated_earning_usd_per_week: int
+    Budget: int
 
 class Path(BaseModel):
     path_type: str
@@ -50,6 +59,8 @@ class Path(BaseModel):
 class SuccessStory(BaseModel):
     name: str
     story: str
+    location: str
+    description: str
     time_to_first_earning_days: int
     first_earning_usd: int
     citation_link: str
@@ -58,11 +69,11 @@ class AnswerFormat(BaseModel):
     hobby: str
     description: str
     paths: List[Path]
-    success_story: SuccessStory
+    success_story: [SuccessStory]
     motivational_writeup: str
 
 
-def search_sonar(query):
+def search_sonar(hobby, description):
     url = "https://api.perplexity.ai/chat/completions"
     headers = {"Authorization": f"Bearer {SONAR_API_KEY}"}
     payload = {
@@ -70,9 +81,10 @@ def search_sonar(query):
         "messages": [
             {
                 "role": "system",
-                "content": '''You are helping build a motivational app called Hobby2Money.
-
-The goal is to guide users to earn pocket money ($100–$500/week) from their hobbies in the USA.
+                "content": '''
+You are a helpful career coach that helps people monetize their hobbies.                
+The goal is to guide users to establish some passive income from their hobbies in the USA.
+The income could be anywhere between $100 to $500 per week.
 
 Given a hobby input, return 3 distinct paths:
 
@@ -80,12 +92,15 @@ Given a hobby input, return 3 distinct paths:
 2. Moderate Setup Path — mid effort, mid income (~$300/week).
 3. Long-Term Growth Path — higher effort, larger potential income (~$500+/week).
 
+The Ouick setup path should be the easiest and fastest to start with minimal milestones and increase the complexity as we go along the paths.
+
 Each path must contain:
-- 4 to 5 High-Level Goals (HLGs)
+- 3 to 4 High-Level Goals (HLGs) 
   - Title
   - Description (1–2 lines)
   - Estimated time (in days)
   - Estimated earning potential per week (USD)
+  - Budget (USD)
 
 Include:
 - 1 real-world success story (preferably from the USA)
@@ -98,7 +113,7 @@ Rules:
 - Suggest gear/tools only when necessary.
 - Use clear, simple English and direct formatting.'''
             },
-            {"role": "user", "content": f"How can I earn money through {query}?"}
+            {"role": "user", "content": f"I love {hobby} and {description}. Help me find ways I can earn money doing it."}
         ],
         "response_format": {
             "type": "json_schema",
@@ -166,7 +181,8 @@ def generate_low_level_queries_from_path(path_data, hobby_name):
         "messages": [
             {
                 "role": "system",
-                "content": f"""You're a Business Coach helping a beginner monetize the hobby '{hobby_name}'.
+                "content": f"""
+You're a Business Coach helping a beginner monetize the hobby '{hobby_name}'.
 
 The user has chosen a path: {path_data['path_type']}.
 

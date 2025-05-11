@@ -7,6 +7,7 @@ app = FastAPI()
 
 class HobbyRequest(BaseModel):
     hobby: str
+    description: Optional[str] = None
 
 class HLGEditRequest(BaseModel):
     selected_path: dict
@@ -21,7 +22,7 @@ class LLGPathRequest(BaseModel):
 @app.post("/generate_path/")
 async def generate_path(req: HobbyRequest):
     try:
-        parsed = search_sonar(req.hobby)
+        parsed = search_sonar(req.hobby, req.description)
         return parsed
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
