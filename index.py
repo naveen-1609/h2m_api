@@ -11,8 +11,17 @@ from utils import (
     generate_dummy_llgs,
     generate_dummy_edited_hlg
 )
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace "*" with your frontend URL in production
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class HobbyRequest(BaseModel):
