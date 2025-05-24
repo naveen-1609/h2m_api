@@ -1,31 +1,50 @@
+# index.py — Complete FastAPI app with all 4 endpoints
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import Optional
-from utils import search_sonar, generate_low_level_queries_from_path, edit_single_hlg
+from typing import Optional, Dict
+from utils import (
+    get_story_summary,
+    generate_monetization_paths,
+    edit_single_hlg,
+    generate_low_level_queries_from_path
+)
 
 app = FastAPI()
+
 
 class HobbyRequest(BaseModel):
     hobby: str
     description: Optional[str] = None
 
+
 class HLGEditRequest(BaseModel):
-    selected_path: dict
+    selected_path: Dict
     hlg_index: int
     user_feedback: str
 
+
 class LLGPathRequest(BaseModel):
     hobby: str
-    selected_path: Optional[dict] = None
-    updated_path: Optional[dict] = None
+    selected_path: Optional[Dict] = None
+    updated_path: Optional[Dict] = None
 
-@app.post("/generate_path/")
-async def generate_path(req: HobbyRequest):
+
+@app.post("/stories/")
+async def get_stories(req: HobbyRequest):
     try:
-        parsed = search_sonar(req.hobby, req.description)
-        return parsed
+        return get_story_summary(req.hobby, req.description)
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.post("/generate_hlg/")
+async def generate_hlg(req: HobbyRequest):
+    try:
+        return generate_monetization_paths(req.hobby, req.description)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
 
 @app.post("/edit_hlg/")
 async def edit_hlg(req: HLGEditRequest):
@@ -35,15 +54,13 @@ async def edit_hlg(req: HLGEditRequest):
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
 
-@app.post("/generate_lowlevel_path/")
-async def generate_lowlevel_path(req: LLGPathRequest):
+
+@app.post("/generate_llgs/")
+async def generate_llgs(req: LLGPathRequest):
     try:
         final_path = req.updated_path if req.updated_path else req.selected_path
         if not final_path:
             raise ValueError("Either 'selected_path' or 'updated_path' must be provided.")
-
-        # query = generate_low_level_queries_from_path(final_path, req.hobby)
-        plan = generate_low_level_queries_from_path(final_path, req.hobby)
-        return {"DetailedPlan": plan}
+        return generate_low_level_queries_from_path(final_path, req.hobby)
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
