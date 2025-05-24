@@ -1,0 +1,300 @@
+{
+    "hobby": "biking",
+    "description": "Turning a love for biking into income by leveraging opportunities such as delivery, content creation, bike flipping, or organizing tours.",
+    "paths": [
+        {
+            "path_type": "Quick Path: Delivery Rider or Bike Advertising",
+            "weekly_earning_potential": 80,
+            "Time_to_first_earning": 1,
+            "budget_needed": 0,
+            "hlgs": [
+                {
+                    "hlg_title": "Sign Up for Delivery Apps or Bike Advertising",
+                    "hlg_description": "Register with popular food or package delivery platforms (like DoorDash, Uber Eats, Postmates), or sign up with Ridevert (when available) for bike-mounted advertising.",
+                    "estimated_time_days": 1,
+                    "estimated_earning_usd_per_week": 20,
+                    "Budget": 0,
+                    "estimated_effort": "Low",
+                    "story": {
+                        "name": "Carlos",
+                        "summary": "Carlos started delivering food on his bike in Miami after college to earn fast cash without needing a car. He immediately began earning the same day he signed up and now makes consistent part-time income.",
+                        "location": "Miami, FL",
+                        "context": "Delivery with Uber Eats",
+                        "time_to_first_earning_days": 1,
+                        "first_earning_usd": 25,
+                        "citation_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    }
+                },
+                {
+                    "hlg_title": "Complete First Deliveries or Ad Campaign",
+                    "hlg_description": "Complete your first deliveries, or accumulate enough miles for your first advertising payout (if available).",
+                    "estimated_time_days": 3,
+                    "estimated_earning_usd_per_week": 40,
+                    "Budget": 0,
+                    "estimated_effort": "Moderate",
+                    "story": {
+                        "name": "Andy",
+                        "summary": "Andy attached an ad banner to his bike in Portland and received his first $20 payment in less than a week just for commuting as usual.",
+                        "location": "Portland, OR",
+                        "context": "Bike advertising with Ridevert",
+                        "time_to_first_earning_days": 6,
+                        "first_earning_usd": 20,
+                        "citation_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    }
+                },
+                {
+                    "hlg_title": "Optimize Your Delivery Schedule",
+                    "hlg_description": "Find out which days and times have the highest demand, and plan your rides to maximize earnings.",
+                    "estimated_time_days": 7,
+                    "estimated_earning_usd_per_week": 60,
+                    "Budget": 0,
+                    "estimated_effort": "Moderate",
+                    "story": {
+                        "name": "Sasha",
+                        "summary": "Sasha realized that weekend evenings were the busiest, doubling her weekly earnings for the same hours worked as a bike courier.",
+                        "location": "San Francisco, CA",
+                        "context": "Food delivery",
+                        "time_to_first_earning_days": 2,
+                        "first_earning_usd": 30,
+                        "citation_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    }
+                },
+                {
+                    "hlg_title": "Expand to Multiple Delivery Platforms or Increase Ad Exposure",
+                    "hlg_description": "Sign up for more platforms or combine both delivery and advertising for maximum returns.",
+                    "estimated_time_days": 14,
+                    "estimated_earning_usd_per_week": 80,
+                    "Budget": 0,
+                    "estimated_effort": "Moderate",
+                    "story": {
+                        "name": "Tommy",
+                        "summary": "Tommy worked both as a delivery rider and placed ads on his bike, pushing his weekly earnings up significantly without needing extra gear.",
+                        "location": "Austin, TX",
+                        "context": "Combining delivery and bike ads",
+                        "time_to_first_earning_days": 5,
+                        "first_earning_usd": 50,
+                        "citation_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    }
+                }
+            ]
+        },
+        {
+            "path_type": "Mid Path: Bike Flipping or Beginner YouTube Channel",
+            "weekly_earning_potential": 150,
+            "Time_to_first_earning": 14,
+            "budget_needed": 80,
+            "hlgs": [
+                {
+                    "hlg_title": "Research & Acquire Used Bikes, or Plan Video Content",
+                    "hlg_description": "Scout local classifieds and thrift shops for undervalued bikes, or outline a content plan for a beginner cycling YouTube channel.",
+                    "estimated_time_days": 3,
+                    "estimated_earning_usd_per_week": 0,
+                    "Budget": 80,
+                    "estimated_effort": "Moderate",
+                    "story": {
+                        "name": "Sarah",
+                        "summary": "Sarah found her first bike to flip at a garage sale for $40, cleaned it up, and prepped it for resale.",
+                        "location": "Chicago, IL",
+                        "context": "Bike flipping",
+                        "time_to_first_earning_days": 5,
+                        "first_earning_usd": 0,
+                        "citation_link": "https://www.youtube.com/watch?v=G0T5izwGgNw"
+                    }
+                },
+                {
+                    "hlg_title": "Refurbish Bike or Film Initial Videos",
+                    "hlg_description": "Use basic maintenance skills to clean and repair the bike, or shoot and edit your first cycling video(s).",
+                    "estimated_time_days": 4,
+                    "estimated_earning_usd_per_week": 0,
+                    "Budget": 20,
+                    "estimated_effort": "Moderate",
+                    "story": {
+                        "name": "Ben",
+                        "summary": "Ben recorded simple trail ride videos and gear reviews, uploading them to YouTube. He gained his first few subscribers within a week.",
+                        "location": "Denver, CO",
+                        "context": "Cycling YouTuber",
+                        "time_to_first_earning_days": 7,
+                        "first_earning_usd": 0,
+                        "citation_link": "https://discover.hubpages.com/sports/How-to-Make-Money-From-Cycling-as-a-Hobby"
+                    }
+                },
+                {
+                    "hlg_title": "Sell Refurbished Bike or Grow YouTube Channel",
+                    "hlg_description": "List the restored bike for sale on Facebook Marketplace, eBay, or Craigslist. Share your channel and promote to cycling groups online.",
+                    "estimated_time_days": 5,
+                    "estimated_earning_usd_per_week": 100,
+                    "Budget": 0,
+                    "estimated_effort": "Intensive (at first)",
+                    "story": {
+                        "name": "Lucy",
+                        "summary": "Lucy flipped her first bike for a $120 profit after spending less than $50 and 10 hours of work.",
+                        "location": "Seattle, WA",
+                        "context": "Bike flipping",
+                        "time_to_first_earning_days": 14,
+                        "first_earning_usd": 120,
+                        "citation_link": "https://www.youtube.com/watch?v=G0T5izwGgNw"
+                    }
+                },
+                {
+                    "hlg_title": "Scale: Multiple Flips or Monetize YouTube Channel",
+                    "hlg_description": "Repeat the flipping process to build inventory, or reach 1,000 subscribers and 4,000 watch hours for YouTube monetization.",
+                    "estimated_time_days": 21,
+                    "estimated_earning_usd_per_week": 150,
+                    "Budget": 60,
+                    "estimated_effort": "High",
+                    "story": {
+                        "name": "Mike",
+                        "summary": "Mike built a sustainable side hustle flipping bikes, averaging $600 a month by handling 1-2 projects per week.",
+                        "location": "Boston, MA",
+                        "context": "Bike flipping business",
+                        "time_to_first_earning_days": 28,
+                        "first_earning_usd": 300,
+                        "citation_link": "https://www.youtube.com/watch?v=G0T5izwGgNw"
+                    }
+                }
+            ]
+        },
+        {
+            "path_type": "Ambitious Path: Guided Tours or Cycling Content Business",
+            "weekly_earning_potential": 400,
+            "Time_to_first_earning": 60,
+            "budget_needed": 400,
+            "hlgs": [
+                {
+                    "hlg_title": "Design Tour Routes or Develop Content Plan",
+                    "hlg_description": "Research scenic or unique local bike routes, or map out a full content strategy for blogging, vlogging, or both.",
+                    "estimated_time_days": 10,
+                    "estimated_earning_usd_per_week": 0,
+                    "Budget": 0,
+                    "estimated_effort": "High",
+                    "story": {
+                        "name": "Kendra",
+                        "summary": "Kendra mapped out unique city tours in Austin, blending bike routes with local history and food stops.",
+                        "location": "Austin, TX",
+                        "context": "Bike tours",
+                        "time_to_first_earning_days": 30,
+                        "first_earning_usd": 0,
+                        "citation_link": "https://www.bizmanualz.com/grow-your-business/develop-small-business-bicycle-lovers.html"
+                    }
+                },
+                {
+                    "hlg_title": "Set Up Legal/Business Structure, Build Website/Socials",
+                    "hlg_description": "Register your business, get the appropriate permits/insurance, and create an online presence.",
+                    "estimated_time_days": 14,
+                    "estimated_earning_usd_per_week": 0,
+                    "Budget": 300,
+                    "estimated_effort": "High",
+                    "story": {
+                        "name": "Nico",
+                        "summary": "Nico sought city permits and launched a website for his guided mountain biking experiences in Colorado, attracting his first clients online.",
+                        "location": "Boulder, CO",
+                        "context": "Guided MTB business",
+                        "time_to_first_earning_days": 45,
+                        "first_earning_usd": 0,
+                        "citation_link": "https://www.bizmanualz.com/grow-your-business/develop-small-business-bicycle-lovers.html"
+                    }
+                },
+                {
+                    "hlg_title": "Promote & Launch First Tour/Product/Blog",
+                    "hlg_description": "Advertise your new service or content to local cycling clubs and travel forums, or launch your blog/YouTube with promotional collaborations.",
+                    "estimated_time_days": 20,
+                    "estimated_earning_usd_per_week": 250,
+                    "Budget": 100,
+                    "estimated_effort": "High",
+                    "story": {
+                        "name": "Maria",
+                        "summary": "Maria launched guided sunset rides for tourists. She filled her first three tours in the opening week, earning her first $600 from ticket sales.",
+                        "location": "Barcelona, Spain",
+                        "context": "Tour guide/operator",
+                        "time_to_first_earning_days": 60,
+                        "first_earning_usd": 200,
+                        "citation_link": "https://www.bizmanualz.com/grow-your-business/develop-small-business-bicycle-lovers.html"
+                    }
+                },
+                {
+                    "hlg_title": "Refine Offerings and Scale Business",
+                    "hlg_description": "Gather customer feedback, diversify routes or content, and consider hiring additional guides or contributors as business grows.",
+                    "estimated_time_days": 60,
+                    "estimated_earning_usd_per_week": 400,
+                    "Budget": 0,
+                    "estimated_effort": "Very High",
+                    "story": {
+                        "name": "Amir",
+                        "summary": "Amir built up his curated bike tour company to serve locals and tourists alike, eventually expanding to three cities and earning $1,600/month.",
+                        "location": "Tel Aviv, Israel",
+                        "context": "Bike tours business",
+                        "time_to_first_earning_days": 120,
+                        "first_earning_usd": 200,
+                        "citation_link": "https://www.bizmanualz.com/grow-your-business/develop-small-business-bicycle-lovers.html"
+                    }
+                }
+            ]
+        }
+    ],
+    "success_story": [
+        {
+            "name": "Lucy",
+            "summary": "Lucy started flipping used bikes in Seattle and within a year turned it into a profitable side business, selling refurbished bikes for $100–$250 profit each.",
+            "location": "Seattle, WA",
+            "context": "Bike flipping",
+            "time_to_first_earning_days": 14,
+            "first_earning_usd": 120,
+            "citation_link": "https://www.youtube.com/watch?v=G0T5izwGgNw"
+        },
+        {
+            "name": "Kendra",
+            "summary": "Kendra created city-guided bike tours in Austin, blending history with local cuisine, and turned her passion into a successful business drawing both locals and tourists.",
+            "location": "Austin, TX",
+            "context": "Bike tours",
+            "time_to_first_earning_days": 30,
+            "first_earning_usd": 0,
+            "citation_link": "https://www.bizmanualz.com/grow-your-business/develop-small-business-bicycle-lovers.html"
+        },
+        {
+            "name": "Carlos",
+            "summary": "Carlos signed up for food delivery services, started earning money riding his bike around Miami, and now enjoys flexible extra income with no extra investment.",
+            "location": "Miami, FL",
+            "context": "Food delivery",
+            "time_to_first_earning_days": 1,
+            "first_earning_usd": 25,
+            "citation_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+        },
+        {
+            "name": "Ben",
+            "summary": "Ben built a YouTube channel focused on biking adventures and gear reviews, eventually growing his audience to the point of earning advertising and affiliate revenue.",
+            "location": "Denver, CO",
+            "context": "Cycling YouTuber",
+            "time_to_first_earning_days": 35,
+            "first_earning_usd": 100,
+            "citation_link": "https://discover.hubpages.com/sports/How-to-Make-Money-From-Cycling-as-a-Hobby"
+        },
+        {
+            "name": "Amir",
+            "summary": "Amir launched a cycling tour business in Tel Aviv that expanded to multiple cities and brought in substantial monthly revenue over time.",
+            "location": "Tel Aviv, Israel",
+            "context": "Bike tours business",
+            "time_to_first_earning_days": 120,
+            "first_earning_usd": 200,
+            "citation_link": "https://www.bizmanualz.com/grow-your-business/develop-small-business-bicycle-lovers.html"
+        },
+        {
+            "name": "Sasha",
+            "summary": "Sasha optimized her food delivery bike routes by focusing on peak hours, effectively doubling her earning potential with the same weekly effort.",
+            "location": "San Francisco, CA",
+            "context": "Food delivery",
+            "time_to_first_earning_days": 2,
+            "first_earning_usd": 30,
+            "citation_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+        },
+        {
+            "name": "Mike",
+            "summary": "Mike made a lucrative side income by consistently flipping bikes in Boston, taking advantage of local garage sales and online classifieds.",
+            "location": "Boston, MA",
+            "context": "Bike flipping business",
+            "time_to_first_earning_days": 28,
+            "first_earning_usd": 300,
+            "citation_link": "https://www.youtube.com/watch?v=G0T5izwGgNw"
+        }
+    ],
+    "motivational_writeup": "Biking isn’t just a way to enjoy the outdoors or stay healthy—it’s a gateway to real earning opportunities. Whether you’re looking to make quick money with delivery gigs, flip bikes for profit, or build a full-fledged business around tours or content creation, your rides can pay off. Like Lucy, Carlos, and Kendra, you can turn your biking passion into flexible income or even a thriving enterprise. The road ahead is open: with the right approach, consistency, and a bit of creativity, you’ll soon be earning and inspiring others with every ride you take."
+}

@@ -1,0 +1,34 @@
+{
+    "count": 20000000,
+    "story": [
+        {
+            "name": "Tadej Pogačar",
+            "summary": "Started as a recreational cyclist and now ranks as the highest-paid professional cyclist in the world, earning €8.3 million per year after winning the Tour de France multiple times.",
+            "location": "Slovenia",
+            "context": "Progressed from amateur biking for fun to a WorldTour champion and global cycling icon.",
+            "time_to_first_earning_days": 1825,
+            "first_earning_usd": 11000,
+            "citation_link": "https://www.granfondoguide.com/Contents/IndexFull/8245/top-ten-highest-paid-professional-cyclists-in-2025"
+        },
+        {
+            "name": "Adam Yates",
+            "summary": "Moved from local road cycling events to winning major international races and earning €2.7 million annually as a pro.",
+            "location": "United Kingdom",
+            "context": "Built his career from amateur races before joining the elite cycling circuit and steadily increasing his earnings.",
+            "time_to_first_earning_days": 1460,
+            "first_earning_usd": 11000,
+            "citation_link": "https://www.granfondoguide.com/Contents/IndexFull/8245/top-ten-highest-paid-professional-cyclists-in-2025"
+        },
+        {
+            "name": "Wout van Aert",
+            "summary": "Transitioned from cyclo-cross and road racing as a hobbyist to one of cycling’s most versatile and highly paid athletes, now earning €3.5 million per year.",
+            "location": "Belgium",
+            "context": "Started riding for fun, then became a multi-discipline champion known for his rivalry with Mathieu van der Poel.",
+            "time_to_first_earning_days": 1825,
+            "first_earning_usd": 11000,
+            "citation_link": "https://www.granfondoguide.com/Contents/IndexFull/8245/top-ten-highest-paid-professional-cyclists-in-2025"
+        }
+    ],
+    "people_earning": 1400,
+    "average_income": "€500,000/year (WorldTour pro average in 2025)"
+}

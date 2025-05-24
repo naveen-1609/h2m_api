@@ -1,0 +1,224 @@
+{
+    "hobby": "Biking",
+    "description": "Step-by-step plans and real success stories to help you monetize biking through delivery apps and bike advertising.",
+    "path": {
+        "path_type": "Side Hustle / Gig Work",
+        "weekly_earning_potential": "$20–$60+ (part-time, higher with effort)",
+        "time_to_first_earning": "1–3 days",
+        "budget_needed": "$0 (if you already own a bike and smartphone)",
+        "hlgs": [
+            {
+                "hlg_title": "Sign Up for Delivery Apps or Bike Advertising",
+                "hlg_description": "Register with popular food or package delivery platforms (like DoorDash, Uber Eats, Postmates), or sign up with Ridevert (when available) for bike-mounted advertising.",
+                "estimated_time_days": 1,
+                "estimated_earning_usd_per_week": 20,
+                "llgs": [
+                    {
+                        "llg_title": "Create Accounts on Gig Delivery Platforms",
+                        "llg_description": "Sign up and get approved as a courier on food/package delivery apps (Uber Eats, DoorDash, etc.) or bike ad services (Ridevert).",
+                        "llg_time_to_complete_days": 1,
+                        "llg_earning_usd_per_week": 15,
+                        "llg_resources": [
+                            {
+                                "resource_name": "Uber Eats Sign Up",
+                                "resource_link": "https://www.ubereats.com/"
+                            },
+                            {
+                                "resource_name": "DoorDash Dasher Application",
+                                "resource_link": "https://dasher.doordash.com/en-us"
+                            },
+                            {
+                                "resource_name": "Ridevert (bike ads)",
+                                "resource_link": "https://www.ridevert.com/"
+                            }
+                        ],
+                        "motivational_writeup": "Taking the leap to sign up is the fastest way to begin earning money through biking. Many people see payments hit their account the same day they are approved.",
+                        "why_this_is_important": "You can’t earn until you’re registered. This unlocks real earning opportunities with almost no upfront investment if you already own a bike.",
+                        "how_to_do_it": {
+                            "step_name": "Sign-Up Process",
+                            "step_description": "Select a platform, fill out your profile, provide necessary documents, and wait for approval. Follow any onboarding instructions provided.",
+                            "step_resources": [
+                                {
+                                    "resource_name": "Millennial Money Guide: Get Paid to Bike",
+                                    "resource_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                                }
+                            ]
+                        },
+                        "reference_story": "Carlos started delivering food on his bike in Miami after college to earn fast cash without needing a car. He immediately began earning the same day he signed up and now makes consistent part-time income.",
+                        "source_url": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    },
+                    {
+                        "llg_title": "Choose the Best Delivery or Ad Platform for Your Area",
+                        "llg_description": "Research which platforms operate in your city and have the best rates or flexibility for bikers.",
+                        "llg_time_to_complete_days": 1,
+                        "llg_earning_usd_per_week": 5,
+                        "llg_resources": [
+                            {
+                                "resource_name": "DoorDash Cities List",
+                                "resource_link": "https://www.doordash.com/cities/"
+                            },
+                            {
+                                "resource_name": "Uber Eats Market Availability",
+                                "resource_link": "https://www.ubereats.com/"
+                            },
+                            {
+                                "resource_name": "Reddit: Delivery Biker Experiences",
+                                "resource_link": "https://www.reddit.com/r/deliverybiker/"
+                            }
+                        ],
+                        "motivational_writeup": "Picking the right app or ad service sets you up for success and helps boost your income from the start. Find where demand is hottest in your city.",
+                        "why_this_is_important": "Some platforms perform much better in certain areas and offer higher payouts, making your time far more valuable.",
+                        "how_to_do_it": {
+                            "step_name": "Platform Research",
+                            "step_description": "Read local experiences, check city lists on the sites, and browse online forums to pick the top-paying platform for you.",
+                            "step_resources": [
+                                {
+                                    "resource_name": "Reddit: Delivery Biker Experiences",
+                                    "resource_link": "https://www.reddit.com/r/deliverybiker/"
+                                }
+                            ]
+                        },
+                        "reference_story": "Multiple bikers on Reddit report earning $100+ in busy cities by switching to platforms with better bonuses or ad demand.",
+                        "source_url": "https://www.reddit.com/r/deliverybiker/"
+                    },
+                    {
+                        "llg_title": "Prepare Your Bike and Gear for Deliveries or Ad Placement",
+                        "llg_description": "Make sure your bike is in working order and you have basic gear: lock, lights, phone holder, and a delivery bag or ad banner (if required).",
+                        "llg_time_to_complete_days": 1,
+                        "llg_earning_usd_per_week": 0,
+                        "llg_resources": [
+                            {
+                                "resource_name": "Essential Bike Delivery Gear List",
+                                "resource_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                            },
+                            {
+                                "resource_name": "Amazon – Bike Phone Holders",
+                                "resource_link": "https://www.amazon.com/s?k=bike+phone+holder"
+                            },
+                            {
+                                "resource_name": "Amazon – Insulated Food Delivery Bags",
+                                "resource_link": "https://www.amazon.com/s?k=insulated+food+delivery+bag"
+                            }
+                        ],
+                        "motivational_writeup": "A reliable setup means more deliveries, better ratings, and more money. Protect your earnings and yourself with the right gear.",
+                        "why_this_is_important": "Safety and reliability are essential for earning consistently and avoiding downtime or poor reviews.",
+                        "how_to_do_it": {
+                            "step_name": "Bike Prep Checklist",
+                            "step_description": "Inspect brakes, tires, and lights. Gather gear like helmet, lock, and bag. Attach any ad banners as instructed by the platform.",
+                            "step_resources": [
+                                {
+                                    "resource_name": "Bike Delivery Gear Guide",
+                                    "resource_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                                }
+                            ]
+                        },
+                        "reference_story": "Carlos’s earnings increased after investing in a better phone holder and a reliable insulated bag, letting him take more orders at once.",
+                        "source_url": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    }
+                ]
+            },
+            {
+                "hlg_title": "Complete First Deliveries or Ad Campaign",
+                "hlg_description": "Complete your first deliveries, or accumulate enough miles for your first advertising payout (if available).",
+                "estimated_time_days": 3,
+                "estimated_earning_usd_per_week": 40,
+                "llgs": [
+                    {
+                        "llg_title": "Accept and Complete Your First Orders or Ad Rides",
+                        "llg_description": "Go online, accept your first food/package order, or just commute as usual if you’re running a bike ad campaign.",
+                        "llg_time_to_complete_days": 1,
+                        "llg_earning_usd_per_week": 20,
+                        "llg_resources": [
+                            {
+                                "resource_name": "Uber Eats Help: Making Deliveries",
+                                "resource_link": "https://help.uber.com/ubereats"
+                            },
+                            {
+                                "resource_name": "DoorDash Dasher Start Guide",
+                                "resource_link": "https://dasher.doordash.com/en-us/resources"
+                            },
+                            {
+                                "resource_name": "Ridevert FAQ",
+                                "resource_link": "https://www.ridevert.com/faq"
+                            }
+                        ],
+                        "motivational_writeup": "Nothing feels better than your first payout for something you already love doing—biking! You’ll build confidence and momentum with each completed delivery or mile.",
+                        "why_this_is_important": "Completing your first runs sets up your earnings and unlocks higher-paying order batches or campaign bonuses.",
+                        "how_to_do_it": {
+                            "step_name": "First Ride/Delivery",
+                            "step_description": "Check the app for available orders, accept one, and follow the in-app navigation. For ads, just ride as you normally do—your mileage is tracked automatically.",
+                            "step_resources": [
+                                {
+                                    "resource_name": "Uber Eats Help: Making Deliveries",
+                                    "resource_link": "https://help.uber.com/ubereats"
+                                }
+                            ]
+                        },
+                        "reference_story": "Andy attached an ad banner to his bike in Portland and received his first $20 payment in less than a week just for commuting as usual.",
+                        "source_url": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    },
+                    {
+                        "llg_title": "Track Earnings and Optimize Your Schedule",
+                        "llg_description": "Monitor which days/times yield most orders or mileage for payouts, and plan your biking hours for maximum earnings.",
+                        "llg_time_to_complete_days": 2,
+                        "llg_earning_usd_per_week": 15,
+                        "llg_resources": [
+                            {
+                                "resource_name": "Best Times for Food Delivery (Blog)",
+                                "resource_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                            },
+                            {
+                                "resource_name": "Delivery Biker Community Insights",
+                                "resource_link": "https://www.reddit.com/r/deliverybiker/"
+                            }
+                        ],
+                        "motivational_writeup": "Tracking and optimizing your schedule makes each ride count—helping you earn more for the same effort!",
+                        "why_this_is_important": "Maximizing earnings per hour increases your efficiency as a gig worker, freeing up your time for other pursuits.",
+                        "how_to_do_it": {
+                            "step_name": "Schedule Optimization",
+                            "step_description": "Look at your app’s earnings reports to identify peak hours. Adjust your availability to ride during those times for more orders or ad impressions.",
+                            "step_resources": [
+                                {
+                                    "resource_name": "Best Times for Food Delivery (Blog)",
+                                    "resource_link": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                                }
+                            ]
+                        },
+                        "reference_story": "Delivery bikers report doubling their hourly earnings by working only lunch/dinner rush or aligning ad rides with high-traffic times.",
+                        "source_url": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    },
+                    {
+                        "llg_title": "Collect Reviews and Referrals for Bonus Earnings",
+                        "llg_description": "Deliver great customer service to earn 5-star reviews, and refer friends for sign-up bonuses where available.",
+                        "llg_time_to_complete_days": 3,
+                        "llg_earning_usd_per_week": 5,
+                        "llg_resources": [
+                            {
+                                "resource_name": "Uber Eats Referral Program",
+                                "resource_link": "https://www.uber.com/us/en/drive/referral/"
+                            },
+                            {
+                                "resource_name": "DoorDash Refer a Friend",
+                                "resource_link": "https://dasher.doordash.com/en-us/resources/referrals"
+                            }
+                        ],
+                        "motivational_writeup": "Great service and referrals grow your reputation and unlock extra bonuses, meaning more money for every mile!",
+                        "why_this_is_important": "High ratings help you access better orders and special bonuses; referrals can provide quick cash boosts with little extra effort.",
+                        "how_to_do_it": {
+                            "step_name": "Earn Reviews & Make Referrals",
+                            "step_description": "Be on time, communicate with customers, and follow instructions closely. Share your referral link with friends who want to make money biking.",
+                            "step_resources": [
+                                {
+                                    "resource_name": "Uber Eats Referral Program",
+                                    "resource_link": "https://www.uber.com/us/en/drive/referral/"
+                                }
+                            ]
+                        },
+                        "reference_story": "Andy boosted his weekly income by $50 one month just through referrals and consistently high ratings.",
+                        "source_url": "https://millennialmoney.com/get-paid-to-ride-your-bike/"
+                    }
+                ]
+            }
+        ]
+    }
+}

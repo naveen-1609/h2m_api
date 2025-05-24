@@ -1,5 +1,3 @@
-# prompts.py — Complete with enhanced prompt for LLGs and success stories
-
 def generate_low_level_queries(selected_path_data, hobby_name):
     return f"""
 You are an expert monetization coach helping beginners earn through their hobby: "{hobby_name}".
